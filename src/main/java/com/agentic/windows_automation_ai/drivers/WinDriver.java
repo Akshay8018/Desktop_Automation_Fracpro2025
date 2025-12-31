@@ -31,6 +31,9 @@ public class WinDriver {
                     new URL(EnvConfig.get("winappdriver.url")),
                     caps
             );
+            
+         // Bring app to foreground
+            driver.manage().window().maximize();
 
             return driver;
 
