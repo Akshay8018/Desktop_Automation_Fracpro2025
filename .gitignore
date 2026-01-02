@@ -1,0 +1,21 @@
+# Maven build output
+target/
+
+# TestNG reports
+test-output/
+
+# Compiled files
+*.class
+
+# Configuration / secrets
+config.properties
+*.properties
+.env
+
+# Excel generated copies
+TestData.xlsx
+
+# IDE files
+.idea/
+.vscode/
+*.iml
